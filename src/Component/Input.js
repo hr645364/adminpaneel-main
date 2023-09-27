@@ -13,6 +13,7 @@ export default function FullWidthTextField(props) {
       <TextField
         value={props.value}
         fullWidth
+        className="bg-secndary"
         label={props.label}
         onChange={props.onchnage}
       />

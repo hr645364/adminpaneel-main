@@ -7,16 +7,15 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCB3JvQDYGNsxydu1GGZEslCjiRBNg61JE",
-  authDomain: "dashboard-13b24.firebaseapp.com",
-  databaseURL: "https://dashboard-13b24-default-rtdb.firebaseio.com",
-  projectId: "dashboard-13b24",
-  storageBucket: "dashboard-13b24.appspot.com",
-  messagingSenderId: "549685409378",
-  appId: "1:549685409378:web:e8ce72023841c64a07833b",
-  measurementId: "G-2YB85887KJ",
+  apiKey: "AIzaSyClF7nRpareLKpceYFNb8wsWOoK8Yd2SuU",
+  authDomain: "quiz-admin-e80db.firebaseapp.com",
+  projectId: "quiz-admin-e80db",
+  storageBucket: "quiz-admin-e80db.appspot.com",
+  messagingSenderId: "244867693062",
+  appId: "1:244867693062:web:8fb8e25e244da801322187",
+  measurementId: "G-PX9WD7Q65V"
 };
 
 // Initialize Firebase
-export const app = initializeApp(firebaseConfig);
+ export const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
